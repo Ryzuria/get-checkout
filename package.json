@@ -1,0 +1,22 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log": "ts-node src/git-log.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/date-fns": "^2.6.0",
+    "date-fns": "^3.6.0",
+    "simple-git": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
